@@ -32,7 +32,7 @@ document.getElementById('comment-add').onclick = function(event){
         //commentBody.value = "";
     })
    // window.location = window.location.href;
-   setTimeout(function() {window.location.reload();}, 300);
+   setTimeout(function() {window.location.reload();}, 1000);
 }
 
 function saveComments(){
